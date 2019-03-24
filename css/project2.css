@@ -1,5 +1,11 @@
 @import url("normalize.css");
 
+nav h1{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
 /* print styles */
 @media print{
     body {
