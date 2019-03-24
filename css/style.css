@@ -475,9 +475,9 @@ button:focus {
 }
 
 .banner_area .banner_inner .banner_content {
-  max-width: 655px;
+  max-width: 680px;
   background: #fff;
-  padding: 40px 65px;
+  padding: 50px 65px;
   position: relative;
   border-radius: 5px;
 }
@@ -489,13 +489,13 @@ button:focus {
   background: rgba(167, 203, 0, 0.8);
   position: absolute;
   left: -50px;
-  top: -30px;
+  top: -17px;
   z-index: -1;
 }
 
 .banner_area .banner_inner .banner_content h2 {
   color: #000000;
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: 0px;
   display: inline-block;
   text-transform: uppercase;
