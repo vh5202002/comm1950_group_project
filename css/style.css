@@ -506,7 +506,8 @@ button:focus {
 }
 
 .banner_area .banner_inner .banner_content .page_link {
-  display: inline-block;
+  display: block;
+  float: none;
   padding-top: 10px;
 }
 
