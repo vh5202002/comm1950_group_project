@@ -26,6 +26,21 @@ nav h1{
 
 }
 
+/* logo */
+@media (max-width:460px){
+	.header_area img{
+		max-width: 70px;
+	}
+}
+@media (max-width:430px){
+	.header_area img{
+		max-width: 55px;
+  }
+  .header_area h1{
+    font-size: 18px;
+  }
+}
+
 /* Calendar */
 #fullDiv {
 
