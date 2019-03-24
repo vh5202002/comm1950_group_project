@@ -25,3 +25,45 @@ nav h1{
     }
 
 }
+
+/* Calendar */
+#fullDiv {
+
+  margin: 0;
+  padding: 0;
+  left: -300px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ul-c {
+  margin: 0;
+  padding: 0;
+}
+
+.li-c {
+  float: left;
+  display: block;
+  width: 14.2857%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.li-c:nth-child(n+1):nth-child(-n+7) {
+  font-weight: 900;
+  color: #e67e22;
+}
+
+.li-c:nth-child(n+39), .li-c:nth-child(n+8):nth-child(-n+16) {
+  font-weight: 900;
+  color: rgba(0,0,0,.3);
+}
+
+.li-c:hover:nth-child(n+8):nth-child(-n+38), .li-c:nth-child(17){
+  border-radius: 5px;
+  background-color: #1abc9c;
+  color: #ecf0f1;
+}
