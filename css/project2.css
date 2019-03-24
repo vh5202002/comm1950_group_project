@@ -63,6 +63,12 @@ nav h1{
   color: #ecf0f1;
 }
 
+/*  */
+.blog_left_sidebar{
+  margin: 0;
+  padding-top: 5px;
+}
+
 /* anchor adjust */
 .assist-div {
   width: 1px;
