@@ -1,0 +1,27 @@
+@import url("normalize.css");
+
+nav h1{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* print styles */
+@media print{
+    body {
+        color: #000000;
+    }
+
+    a[href^="http"]:after{
+		content:", URL: (" attr(href) ")";		
+	}
+    
+	nav, footer{
+		display:none;
+	}
+
+    h1, h2{
+		page-break-after:avoid;
+    }
+
+}
