@@ -309,7 +309,7 @@ button:focus {
 }
 
 .header_area .navbar .nav.navbar-nav.navbar-right {
-  max-width: 214px;
+  max-width: 150px;
   width: 100%;
 }
 
@@ -328,7 +328,7 @@ button:focus {
 
 .header_area .navbar .nav.navbar-nav.navbar-right li:last-child {
   margin-right: 0px;
-  margin-left: 45px;
+  margin-left: 25px;
 }
 
 .header_area .navbar .nav.navbar-nav.navbar-right li:last-child a {
