@@ -80,14 +80,17 @@ nav h1{
 
   a[href^="http"]:after{
   content:", URL: (" attr(href) ")";		
-}
+  }
   
-nav, footer{
-  display:none;
-}
-
-  h1, h2{
-  page-break-after:avoid;
+  nav, footer, .feature-img, .page_link, .blog_right_sidebar, .footer-area, .comment-form {
+    display:none;
   }
 
+  h1, h2, h3, h4, h3 + div {
+    page-break-after:avoid;
+  }
+
+  .banner_area {
+    height: 100px;
+  }
 }
