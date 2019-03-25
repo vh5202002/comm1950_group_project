@@ -23,7 +23,6 @@ nav h1{
 
 /* Calendar */
 #fullDiv {
-
   margin: 0;
   padding: 0;
   left: -300px;
@@ -45,6 +44,9 @@ nav h1{
   width: 14.2857%;
   text-align: center;
   list-style-type: none;
+}
+.mission_text h3{
+  color: black;
 }
 
 .li-c:nth-child(n+1):nth-child(-n+7) {
