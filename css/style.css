@@ -2092,6 +2092,10 @@ button:focus {
   border-top: 1px solid #eee;
 }
 
+.section-top-border h4 {
+  margin: 10px 0px;
+}
+
 .switch-wrap {
   margin-bottom: 10px;
 }
@@ -2572,12 +2576,12 @@ h6 {
 .ordered-list li {
   list-style-type: decimal-leading-zero;
   color: #f8b600;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.82em !important;
 }
 
 .ordered-list li span {
-  font-weight: 300;
+  font-weight: normal;
   color: #666666;
 }
 
