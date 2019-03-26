@@ -123,4 +123,8 @@ nav h1{
   .banner_area {
     height: 100px;
   }
+  .img-fluid{
+    filter: grayscale(100%);
+    filter: gray;
+  }
 }
