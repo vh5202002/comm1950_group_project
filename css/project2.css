@@ -127,4 +127,12 @@ nav h1{
     filter: grayscale(100%);
     filter: gray;
   }
+ .swiper-slide img, .left_img, .project_know_area,  .success_img, .mission_text{
+   display: none;
+ }
+.col-md-9 img{
+  filter: grayscale(100%);
+  filter: gray;
+}
+
 }
