@@ -3,8 +3,12 @@
     Student Number: a01040431
     Date: 2019.03.10
 */
+
+
 /* load reset rules first */
+
 @import url("normalize.css");
+
 /*  
 define your color palette as SASS varaibles... 
 makes it easy to change the entire page's color palette
@@ -12,38 +16,44 @@ makes it easy to change the entire page's color palette
 white 
 100%
 */
+
+
 /* html body */
+
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 .jumbotron {
-  background-image: url("../images/template/pic1.png");
-  background-repeat: repeat-y;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-position: bottom;
+    background-image: url("../img/banner/pp.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: ;
 }
 
 .container {
-  text-align: center;
+    text-align: center;
 }
 
 .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
-  color: white;
-  text-shadow:  5px 3px #44678f;
+    color: white;
+    text-shadow: 2px 1px #44678f;
 }
 
 .jumbotron p {
-  color: white;
-  text-shadow:  5px 3px #44678f;
+    color: white;
+    text-shadow: 1px 0px #44678f;
+    font-size: em;
 }
