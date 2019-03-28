@@ -881,7 +881,7 @@ button:focus {
 /*============ blog_left_sidebar css ==============*/
 
 .blog_item {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .blog_info {
@@ -931,7 +931,7 @@ button:focus {
 }
 
 .blog_details {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .blog_details h2 {
