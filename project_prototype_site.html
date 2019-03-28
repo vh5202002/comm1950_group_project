@@ -94,7 +94,7 @@
     <section class="home_banner_area">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="img/slider/slider-5.jpg" alt="">
+                <div class="swiper-slide"><img src="img/slider/slider-5.jpg" alt="banner">
                     <div class="slider_text_inner">
                         <div class="container">
                             <div class="row">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide"><img src="img/slider/slider-1.jpg" alt="">
+                <div class="swiper-slide"><img src="img/slider/slider-1.jpg" alt="banner">
                     <div class="slider_text_inner">
                         <div class="container">
                             <div class="row">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide"><img src="img/slider/slider-4.jpg" alt="">
+                <div class="swiper-slide"><img src="img/slider/slider-4.jpg" alt="banner">
                     <div class="slider_text_inner">
                         <div class="container">
                             <div class="row">
@@ -151,7 +151,7 @@
     <section class="mission_area">
         <div class="row m0">
             <div class="col-lg-6 p0">
-                <div class="left_img"><img src="img/mission-3.jpg" alt=""></div>
+                <div class="left_img"><img src="img/mission-3.jpg" alt="Instruction"></div>
             </div>
             <div class="col-lg-6 p0">
                 <div class="mission_slider owl-carousel">
@@ -235,7 +235,7 @@
             </div>
             <div class="col-lg-6 p0">
                 <div class="success_img">
-                    <img src="img/success-1.jpg" alt="">
+                    <img src="img/success-1.jpg" alt="calendar" id="calendarBanner">
                 </div>
             </div>
         </div>
@@ -255,7 +255,7 @@
         <div class="row m0 right_dir">
             <div class="col-lg-6 p0">
                 <div class="success_img">
-                    <img src="img/success-2.jpg" alt="">
+                    <img src="img/success-2.jpg" alt="news">
                 </div>
             </div>
             <div class="col-lg-6 p0">
@@ -280,7 +280,7 @@
                         <div class="col-md-9">
                             <div class="blog_post">
                                 <h4>News</h4>
-                                <img src="img/blog/main-blog/m-blog-6.png" alt="">
+                                <img src="img/blog/main-blog/m-blog-6.png" alt="news">
                                 <div class="blog_details">
                                     <a href="https://commons.bcit.ca/news/2019/03/bcit-researcher-elizabeth-mudge-earns-her-phd/">
                                         <h2>BCIT Researcher earns her PhD</h2>
@@ -340,7 +340,7 @@
                                 <a href="https://www.bcit.ca/" target="_blank"><img src="img/instagram/Image-09.jpg" alt="BCIT"></a>
                             </li>
                             <li>
-                                <a href="https://code.visualstudio.com/" target="_blank"><img src="img/instagram/Image-10.jpg" alt=""></a>
+                                <a href="https://code.visualstudio.com/" target="_blank"><img src="img/instagram/Image-10.jpg" alt="visualstudio"></a>
                             </li>
                             <li>
                                 <a href="https://www.w3.org/" target="_blank"><img src="img/instagram/Image-11.jpg" alt="W3C"></a>
@@ -422,8 +422,8 @@
     <script src="vendors/swiper/js/swiper.min.js"></script>
     <script src="js/theme.js"></script>
     <script>
-        var winHeight = $(window).height();
-        var height = (winHeight * 7.5) / 100;
+        var winHeight = $("#calendarBanner").height();
+        var height = (winHeight * 12) / 100;
         var lineHeight = height + "px";
 
         $(".li-c").css("line-height", lineHeight);
